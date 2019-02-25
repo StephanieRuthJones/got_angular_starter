@@ -1,6 +1,9 @@
 <div class="navbar">
   <div class="linkbox">
-    <a href="dorne"> dorne</a>
-    <a href="winterfell"> winterfell</a>
+    <a routerLink="{{link}}" *ngFor="let link of links">
+      {{link}}
+    </a>
+
+
   </div>
 </div>
